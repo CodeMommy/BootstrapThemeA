@@ -1,0 +1,14 @@
+.navbar
+    background-color: #fff
+    .navbar-nav
+        .nav-item 
+            .nav-link
+                &, &:link, &:visited, &:focus
+                    color: $fontColor
+                    border-bottom: 2px solid #fff
+                &:hover
+                    color: $color
+                    border-bottom: 2px solid $color
+            &.active .nav-link
+                color: $color
+                border-bottom: 2px solid $color

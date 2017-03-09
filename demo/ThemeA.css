@@ -1,0 +1,16 @@
+* {
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  font-family: wf_segoe-ui_normal, HelveticaNeue-Light, "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif !important; }
+
+.navbar {
+  background-color: #fff; }
+  .navbar .navbar-nav .nav-item .nav-link, .navbar .navbar-nav .nav-item .nav-link:link, .navbar .navbar-nav .nav-item .nav-link:visited, .navbar .navbar-nav .nav-item .nav-link:focus {
+    color: #333;
+    border-bottom: 2px solid #fff; }
+  .navbar .navbar-nav .nav-item .nav-link:hover {
+    color: #007acc;
+    border-bottom: 2px solid #007acc; }
+  .navbar .navbar-nav .nav-item.active .nav-link {
+    color: #007acc;
+    border-bottom: 2px solid #007acc; }
