@@ -2,7 +2,7 @@
 
 ## Overview
 
-> CodeMommy Bootstrap ThemeA is a technological sense Theme for Bootstrap.
+> Bootstrap theme of technological sense
 
 Visit [CodeMommy Website](http://www.codemommy.com) to get more information.
 
