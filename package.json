@@ -1,0 +1,20 @@
+{
+    "name": "Theme.Bootstrap.ThemeA",
+    "version": "0.0.1",
+    "description": "Bootstrap theme of technological sense",
+    "main": "index.js",
+    "scripts": {
+        "watch": "sass --watch --sourcemap=none source/main.scss:.demo/static/ThemeA.css",
+        "publish": "sass --style compressed --sourcemap=none source/main.scss:publish/ThemeA.min.css && sass --style compressed --sourcemap=none source/main.scss:publish/ThemeA.0.0.1.min.css"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/CodeMommy/BootstrapThemeA.git"
+    },
+    "author": "",
+    "license": "Apache",
+    "bugs": {
+        "url": "https://github.com/CodeMommy/BootstrapThemeA/issues"
+    },
+    "homepage": "https://github.com/CodeMommy/BootstrapThemeA#readme"
+}

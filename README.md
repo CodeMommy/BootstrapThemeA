@@ -4,15 +4,13 @@
 
 > Bootstrap theme of technological sense
 
-Visit [CodeMommy Website](http://www.codemommy.com) or [Demo](http://a.bootstrap.theme.codemommy.com/demo/) to get more information.
+## Contributor
 
-## Author
+- [Candison November](http://www.kandisheng.com) - Founder
 
-| Author            | Identity | Social |
-| :---------------- | :------- | :----- |
-| Candison November | Creator  | [Website](http://www.kandisheng.com/) [Github](https://github.com/KanDisheng) |
+## Information
 
-## More
-
+- [Homepage](http://www.CodeMommy.com)
 - [Feedback](https://github.com/CodeMommy/BootstrapThemeA/issues)
-- [About CodeMommy](https://github.com/CodeMommy/CodeMommy)
+- [About](https://github.com/CodeMommy/CodeMommy)
+- [GitHub](https://github.com/CodeMommy/BootstrapThemeA)
