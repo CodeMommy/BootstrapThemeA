@@ -1,2 +1,2 @@
 @echo off
-sass --watch --sourcemap=none source/main.sass:demo/ThemeA.css
+sass --watch --sourcemap=none source/main.scss:demo/ThemeA.css

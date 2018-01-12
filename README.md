@@ -4,8 +4,6 @@
 
 > Bootstrap theme of technological sense
 
-
-
 Visit [CodeMommy Website](http://www.codemommy.com) or [Demo](http://a.bootstrap.theme.codemommy.com/demo/) to get more information.
 
 ## Author

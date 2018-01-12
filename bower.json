@@ -1,0 +1,19 @@
+{
+  "private": true,
+  "name": "themea",
+  "description": "",
+  "license": "",
+  "homepage": "",
+  "authors": [],
+  "keywords": [],
+  "main": [],
+  "ignore": [],
+  "moduleType": [],
+  "devDependencies": {},
+  "dependencies": {
+    "bootstrap": "4.*",
+    "jquery": "3.*",
+    "html5shiv": "3.7.*",
+    "respond": "1.4.*"
+  }
+}
