@@ -2,19 +2,26 @@
     "name": "Theme.Bootstrap.ThemeA",
     "version": "0.0.1",
     "description": "Bootstrap theme of technological sense",
-    "main": "index.js",
-    "scripts": {
-        "watch": "sass --watch --sourcemap=none source/main.scss:.demo/static/ThemeA.css",
-        "publish": "sass --style compressed --sourcemap=none source/main.scss:publish/ThemeA.min.css && sass --style compressed --sourcemap=none source/main.scss:publish/ThemeA.0.0.1.min.css"
+    "author": "",
+    "license": "Apache-2.0",
+    "homepage": "https://github.com/CodeMommy/BootstrapThemeA#readme",
+    "bugs": {
+        "url": "https://github.com/CodeMommy/BootstrapThemeA/issues"
     },
     "repository": {
         "type": "git",
         "url": "git+https://github.com/CodeMommy/BootstrapThemeA.git"
     },
-    "author": "",
-    "license": "Apache",
-    "bugs": {
-        "url": "https://github.com/CodeMommy/BootstrapThemeA/issues"
+    "main": "index.js",
+    "scripts": {
+        "watch": "sass --watch --sourcemap=none source/main.scss:.demo/static/ThemeA.css",
+        "publish": "sass --style compressed --sourcemap=none source/main.scss:publish/ThemeA.min.css && sass --style compressed --sourcemap=none source/main.scss:publish/ThemeA.0.0.1.min.css"
     },
-    "homepage": "https://github.com/CodeMommy/BootstrapThemeA#readme"
+    "dependencies": {
+        "jquery": "3.*",
+        "bootstrap": "4.0.0-beta.3",
+        "popper.js": "1.12.*",
+        "html5shiv": "3.7.*",
+        "respond.js": "1.4.*"
+    }
 }
