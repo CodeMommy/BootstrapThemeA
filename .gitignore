@@ -1,5 +1,6 @@
-/.sass-cache
 /.idea
-/.demo
+/.sass-cache
 /node_modules
 /package-lock.json
+/test/vendor
+/test/ThemeA.css

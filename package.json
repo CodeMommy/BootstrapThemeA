@@ -14,7 +14,7 @@
     },
     "main": "index.js",
     "scripts": {
-        "watch": "sass --watch --sourcemap=none source/main.scss:.demo/static/ThemeA.css",
+        "watch": "sass --watch --sourcemap=none source/main.scss:test/ThemeA.css",
         "publish": "sass --style compressed --sourcemap=none source/main.scss:publish/ThemeA.min.css && sass --style compressed --sourcemap=none source/main.scss:publish/ThemeA.0.0.1.min.css"
     },
     "dependencies": {
