@@ -14,14 +14,19 @@
     },
     "main": "index.js",
     "scripts": {
-        "watch": "sass --watch --sourcemap=none source/main.scss:test/ThemeA.css",
-        "publish": "sass --style compressed --sourcemap=none source/main.scss:publish/ThemeA.min.css && sass --style compressed --sourcemap=none source/main.scss:publish/ThemeA.0.0.1.min.css"
+        "watch": "./node_modules/.bin/node-sass --watch --recursive --output test/style --source-map true --source-map-contents source",
+        "publish_latest": "./node_modules/.bin/node-sass --output-style compressed source/ThemeA.scss > publish/ThemeA.min.css",
+        "publish_new_version": "./node_modules/.bin/node-sass --output-style compressed source/ThemeA.scss > publish/ThemeA.0.0.1.min.css",
+        "publish": "npm run publish_latest && npm run publish_new_version"
     },
     "dependencies": {
         "bootstrap": "4.*",
+        "html5shiv": "3.7.*",
         "jquery": "3.*",
         "popper.js": "1.12.*",
-        "html5shiv": "3.7.*",
         "respond.js": "1.4.*"
+    },
+    "devDependencies": {
+        "node-sass": "*"
     }
 }
